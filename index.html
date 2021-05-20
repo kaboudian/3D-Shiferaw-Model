@@ -989,7 +989,7 @@ void main(){
  *------------------------------------------------------------------------
  */
     float gica, pbx ;
-    gica = 3.0 ;
+    gica = 2.5 ;
     
     pbx = 0.9 ;
    // if ( (cc.x > 0.3) && (cc.x<.5) ){
@@ -1743,7 +1743,7 @@ void main(){
 
     // laplacian .........................................................
 
-    float  dx = 10./128. ;
+    float  dx = lx/128. ;
 
     float laplacian = (
             texelFetch( vlt_txtr, unpack( NORTH ), 0 )
@@ -2085,10 +2085,10 @@ function loadWebGL()
  *------------------------------------------------------------------------
  */
     env.running     = false ;
-    env.dt          = 0.1 ;
+    env.dt          = 0.03 ;
     env.diffCoef    = 0.001 ;
     env.C_m         = 1. ;
-    env.lx          = 5  ;
+    env.lx          = 20  ;
     env.skip        = 10 ;
     env.time        = 0. ;
 

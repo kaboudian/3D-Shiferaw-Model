@@ -307,7 +307,7 @@ void main(){
 
     // laplacian .........................................................
 
-    float  dx = 10./128. ;
+    float  dx = lx/128. ;
 
     float laplacian = (
             texelFetch( vlt_txtr, unpack( NORTH ), 0 )

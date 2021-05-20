@@ -32,10 +32,10 @@ function loadWebGL()
  *------------------------------------------------------------------------
  */
     env.running     = false ;
-    env.dt          = 0.1 ;
+    env.dt          = 0.03 ;
     env.diffCoef    = 0.001 ;
     env.C_m         = 1. ;
-    env.lx          = 5  ;
+    env.lx          = 20  ;
     env.skip        = 10 ;
     env.time        = 0. ;
 
